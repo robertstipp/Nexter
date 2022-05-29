@@ -1,3 +1,5 @@
 .gallery {
   background-color: $color-secondary;
+  display: grid;
+  grid-column: full-start / full-end;
 }
