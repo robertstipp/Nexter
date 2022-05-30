@@ -47,7 +47,7 @@ body {
 
 .features {
   grid-column: center-start / center-end;
-  margin: 15rem auto;
+  margin: 15rem 0;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   gap: 6rem;
@@ -72,7 +72,6 @@ body {
   grid-column: full-start / col-end 4; }
 
 .story__content {
-  background-color: #6d5d4b;
   grid-column: col-start 5 / full-end; }
 
 .homes {
